@@ -1,10 +1,10 @@
 const Precio = {
-    "1" : 0.2,
-    "2" : 0.5,
-    "3" : 0.85
+    "1": 0.2,
+    "2": 0.5,
+    "3": 0.85
 };
 
-function resumen() {
+function Resumen() {
     const form = document.getElementById("tickets");
     const cantidad = form.elements["cant"];
     const categoria = form.elements["cat"];
